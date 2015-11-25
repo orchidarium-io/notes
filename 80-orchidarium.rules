@@ -1,0 +1,3 @@
+# will be changed to 0660 in production
+SUBSYSTEM=="i2c-dev", GROUP="input", MODE="0666"
+
