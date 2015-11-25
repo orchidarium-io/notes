@@ -1,0 +1,2117 @@
+P: /devices/breakpoint
+E: DEVPATH=/devices/breakpoint
+E: SUBSYSTEM=event_source
+E: UDEV_LOG=3
+
+P: /devices/clocks
+E: DEVPATH=/devices/clocks
+E: MODALIAS=of:NclocksT<NULL>Csimple-bus
+E: OF_COMPATIBLE_0=simple-bus
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/clocks
+E: OF_NAME=clocks
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/clocks/clocks:clock@2
+E: DEVPATH=/devices/clocks/clocks:clock@2
+E: MODALIAS=of:NclockT<NULL>Cfixed-clock
+E: OF_COMPATIBLE_0=fixed-clock
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/clocks/clock@2
+E: OF_NAME=clock
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/clocks/clocks:i2c
+E: DEVPATH=/devices/clocks/clocks:i2c
+E: MODALIAS=of:Ni2cT<NULL>Cfixed-clock
+E: OF_COMPATIBLE_0=fixed-clock
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/clocks/i2c
+E: OF_NAME=i2c
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/dev:f1
+E: AMBA_ID=00341011
+E: DEVPATH=/devices/dev:f1
+E: DRIVER=uart-pl011
+E: MODALIAS=amba:d00341011
+E: SUBSYSTEM=amba
+E: UDEV_LOG=3
+
+P: /devices/dev:f1/tty/ttyAMA0
+N: ttyAMA0
+E: DEVNAME=/dev/ttyAMA0
+E: DEVPATH=/devices/dev:f1/tty/ttyAMA0
+E: MAJOR=204
+E: MINOR=64
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/platform/alarmtimer
+E: DEVPATH=/devices/platform/alarmtimer
+E: DRIVER=alarmtimer
+E: MODALIAS=platform:alarmtimer
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708-dmaengine
+E: DEVPATH=/devices/platform/bcm2708-dmaengine
+E: DRIVER=bcm2708-dmaengine
+E: MODALIAS=platform:bcm2708-dmaengine
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708-dmaengine/dma/dma0chan0
+E: DEVPATH=/devices/platform/bcm2708-dmaengine/dma/dma0chan0
+E: SUBSYSTEM=dma
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708-dmaengine/dma/dma0chan1
+E: DEVPATH=/devices/platform/bcm2708-dmaengine/dma/dma0chan1
+E: SUBSYSTEM=dma
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708-dmaengine/dma/dma0chan2
+E: DEVPATH=/devices/platform/bcm2708-dmaengine/dma/dma0chan2
+E: SUBSYSTEM=dma
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708-dmaengine/dma/dma0chan3
+E: DEVPATH=/devices/platform/bcm2708-dmaengine/dma/dma0chan3
+E: SUBSYSTEM=dma
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708-dmaengine/dma/dma0chan4
+E: DEVPATH=/devices/platform/bcm2708-dmaengine/dma/dma0chan4
+E: SUBSYSTEM=dma
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708_dma.0
+E: DEVPATH=/devices/platform/bcm2708_dma.0
+E: DRIVER=bcm2708_dma
+E: MODALIAS=platform:bcm2708_dma
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708_fb
+E: DEVPATH=/devices/platform/bcm2708_fb
+E: DRIVER=bcm2708_fb
+E: MODALIAS=platform:bcm2708_fb
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708_powerman.0
+E: DEVPATH=/devices/platform/bcm2708_powerman.0
+E: MODALIAS=platform:bcm2708_powerman
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708_usb
+E: DEVPATH=/devices/platform/bcm2708_usb
+E: DRIVER=dwc_otg
+E: MODALIAS=platform:bcm2708_usb
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708_usb/usb1
+N: bus/usb/001/001
+E: BUSNUM=001
+E: DEVNAME=/dev/bus/usb/001/001
+E: DEVNUM=001
+E: DEVPATH=/devices/platform/bcm2708_usb/usb1
+E: DEVTYPE=usb_device
+E: DRIVER=usb
+E: ID_BUS=usb
+E: ID_MODEL=DWC_OTG_Controller
+E: ID_MODEL_ENC=DWC\x20OTG\x20Controller
+E: ID_MODEL_ID=0002
+E: ID_REVISION=0318
+E: ID_SERIAL=Linux_3.18.5-v7+_dwc_otg_hcd_DWC_OTG_Controller_bcm2708_usb
+E: ID_SERIAL_SHORT=bcm2708_usb
+E: ID_USB_INTERFACES=:090000:
+E: ID_VENDOR=Linux_3.18.5-v7+_dwc_otg_hcd
+E: ID_VENDOR_ENC=Linux\x203.18.5-v7+\x20dwc_otg_hcd
+E: ID_VENDOR_ID=1d6b
+E: MAJOR=189
+E: MINOR=0
+E: PRODUCT=1d6b/2/318
+E: SUBSYSTEM=usb
+E: TYPE=9/0/1
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=3944232
+
+P: /devices/platform/bcm2708_usb/usb1/1-0:1.0
+E: DEVPATH=/devices/platform/bcm2708_usb/usb1/1-0:1.0
+E: DEVTYPE=usb_interface
+E: DRIVER=hub
+E: INTERFACE=9/0/0
+E: MODALIAS=usb:v1D6Bp0002d0318dc09dsc00dp01ic09isc00ip00in00
+E: PRODUCT=1d6b/2/318
+E: SUBSYSTEM=usb
+E: TYPE=9/0/1
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708_usb/usb1/1-1
+N: bus/usb/001/002
+E: BUSNUM=001
+E: DEVNAME=/dev/bus/usb/001/002
+E: DEVNUM=002
+E: DEVPATH=/devices/platform/bcm2708_usb/usb1/1-1
+E: DEVTYPE=usb_device
+E: DRIVER=usb
+E: ID_BUS=usb
+E: ID_MODEL=9514
+E: ID_MODEL_ENC=9514
+E: ID_MODEL_ID=9514
+E: ID_REVISION=0200
+E: ID_SERIAL=0424_9514
+E: ID_USB_INTERFACES=:090001:090002:
+E: ID_VENDOR=0424
+E: ID_VENDOR_ENC=0424
+E: ID_VENDOR_ID=0424
+E: MAJOR=189
+E: MINOR=1
+E: PRODUCT=424/9514/200
+E: SUBSYSTEM=usb
+E: TYPE=9/0/2
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=3925214
+
+P: /devices/platform/bcm2708_usb/usb1/1-1/1-1.1
+N: bus/usb/001/003
+E: BUSNUM=001
+E: DEVNAME=/dev/bus/usb/001/003
+E: DEVNUM=003
+E: DEVPATH=/devices/platform/bcm2708_usb/usb1/1-1/1-1.1
+E: DEVTYPE=usb_device
+E: DRIVER=usb
+E: ID_BUS=usb
+E: ID_MODEL=ec00
+E: ID_MODEL_ENC=ec00
+E: ID_MODEL_ID=ec00
+E: ID_REVISION=0200
+E: ID_SERIAL=0424_ec00
+E: ID_USB_INTERFACES=:ff00ff:
+E: ID_VENDOR=0424
+E: ID_VENDOR_ENC=0424
+E: ID_VENDOR_ID=0424
+E: MAJOR=189
+E: MINOR=2
+E: PRODUCT=424/ec00/200
+E: SUBSYSTEM=usb
+E: TYPE=255/0/1
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=3988946
+
+P: /devices/platform/bcm2708_usb/usb1/1-1/1-1.1/1-1.1:1.0
+E: DEVPATH=/devices/platform/bcm2708_usb/usb1/1-1/1-1.1/1-1.1:1.0
+E: DEVTYPE=usb_interface
+E: DRIVER=smsc95xx
+E: INTERFACE=255/0/255
+E: MODALIAS=usb:v0424pEC00d0200dcFFdsc00dp01icFFisc00ipFFin00
+E: PRODUCT=424/ec00/200
+E: SUBSYSTEM=usb
+E: TYPE=255/0/1
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708_usb/usb1/1-1/1-1.1/1-1.1:1.0/net/eth0
+E: DEVPATH=/devices/platform/bcm2708_usb/usb1/1-1/1-1.1/1-1.1:1.0/net/eth0
+E: ID_BUS=usb
+E: ID_MODEL=ec00
+E: ID_MODEL_ENC=ec00
+E: ID_MODEL_ID=ec00
+E: ID_REVISION=0200
+E: ID_SERIAL=0424_ec00
+E: ID_TYPE=generic
+E: ID_USB_DRIVER=smsc95xx
+E: ID_USB_INTERFACES=:ff00ff:
+E: ID_USB_INTERFACE_NUM=00
+E: ID_VENDOR=0424
+E: ID_VENDOR_ENC=0424
+E: ID_VENDOR_FROM_DATABASE=Standard Microsystems Corp.
+E: ID_VENDOR_ID=0424
+E: IFINDEX=2
+E: INTERFACE=eth0
+E: SUBSYSTEM=net
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4077707
+
+P: /devices/platform/bcm2708_usb/usb1/1-1/1-1:1.0
+E: DEVPATH=/devices/platform/bcm2708_usb/usb1/1-1/1-1:1.0
+E: DEVTYPE=usb_interface
+E: DRIVER=hub
+E: INTERFACE=9/0/2
+E: MODALIAS=usb:v0424p9514d0200dc09dsc00dp02ic09isc00ip02in00
+E: PRODUCT=424/9514/200
+E: SUBSYSTEM=usb
+E: TYPE=9/0/2
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2708_vcio
+E: DEVPATH=/devices/platform/bcm2708_vcio
+E: DRIVER=bcm2708_vcio
+E: MODALIAS=platform:bcm2708_vcio
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2835_AUD0.0
+E: DEVPATH=/devices/platform/bcm2835_AUD0.0
+E: DRIVER=bcm2835_AUD0
+E: MODALIAS=platform:bcm2835_AUD0
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2835_AUD1.1
+E: DEVPATH=/devices/platform/bcm2835_AUD1.1
+E: DRIVER=bcm2835_AUD1
+E: MODALIAS=platform:bcm2835_AUD1
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2835_AUD2.2
+E: DEVPATH=/devices/platform/bcm2835_AUD2.2
+E: DRIVER=bcm2835_AUD2
+E: MODALIAS=platform:bcm2835_AUD2
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2835_AUD3.3
+E: DEVPATH=/devices/platform/bcm2835_AUD3.3
+E: DRIVER=bcm2835_AUD3
+E: MODALIAS=platform:bcm2835_AUD3
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2835_AUD4.4
+E: DEVPATH=/devices/platform/bcm2835_AUD4.4
+E: DRIVER=bcm2835_AUD4
+E: MODALIAS=platform:bcm2835_AUD4
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2835_AUD5.5
+E: DEVPATH=/devices/platform/bcm2835_AUD5.5
+E: DRIVER=bcm2835_AUD5
+E: MODALIAS=platform:bcm2835_AUD5
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2835_AUD6.6
+E: DEVPATH=/devices/platform/bcm2835_AUD6.6
+E: DRIVER=bcm2835_AUD6
+E: MODALIAS=platform:bcm2835_AUD6
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2835_AUD7.7
+E: DEVPATH=/devices/platform/bcm2835_AUD7.7
+E: DRIVER=bcm2835_AUD7
+E: MODALIAS=platform:bcm2835_AUD7
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2835_hwmon.0
+E: DEVPATH=/devices/platform/bcm2835_hwmon.0
+E: MODALIAS=platform:bcm2835_hwmon
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/bcm2835_thermal.0
+E: DEVPATH=/devices/platform/bcm2835_thermal.0
+E: DRIVER=bcm2835_thermal
+E: MODALIAS=platform:bcm2835_thermal
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/mmc-bcm2835.0
+E: DEVPATH=/devices/platform/mmc-bcm2835.0
+E: DRIVER=mmc-bcm2835
+E: MODALIAS=platform:mmc-bcm2835
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/platform/mmc-bcm2835.0/mmc_host/mmc0
+E: DEVPATH=/devices/platform/mmc-bcm2835.0/mmc_host/mmc0
+E: SUBSYSTEM=mmc_host
+E: UDEV_LOG=3
+
+P: /devices/platform/mmc-bcm2835.0/mmc_host/mmc0/mmc0:aaaa
+E: DEVPATH=/devices/platform/mmc-bcm2835.0/mmc_host/mmc0/mmc0:aaaa
+E: DRIVER=mmcblk
+E: MMC_NAME=SS04G
+E: MMC_TYPE=SD
+E: MODALIAS=mmc:block
+E: SUBSYSTEM=mmc
+E: UDEV_LOG=3
+
+P: /devices/platform/mmc-bcm2835.0/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0
+N: mmcblk0
+S: disk/by-id/memstick-SS04G_0x00b25421
+S: disk/by-path/platform-mmc-bcm2835.0
+E: DEVLINKS=/dev/disk/by-id/memstick-SS04G_0x00b25421 /dev/disk/by-path/platform-mmc-bcm2835.0
+E: DEVNAME=/dev/mmcblk0
+E: DEVPATH=/devices/platform/mmc-bcm2835.0/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0
+E: DEVTYPE=disk
+E: ID_BUS=memstick
+E: ID_DRIVE_FLASH_SD=1
+E: ID_DRIVE_MEDIA_FLASH_SD=1
+E: ID_PART_TABLE_TYPE=dos
+E: ID_PATH=platform-mmc-bcm2835.0
+E: ID_PATH_TAG=platform-mmc-bcm2835_0
+E: ID_SERIAL=SS04G_0x00b25421
+E: MAJOR=179
+E: MINOR=0
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: UDISKS_PARTITION_TABLE=1
+E: UDISKS_PARTITION_TABLE_COUNT=2
+E: UDISKS_PARTITION_TABLE_SCHEME=mbr
+E: UDISKS_PRESENTATION_NOPOLICY=0
+E: USEC_INITIALIZED=4381368
+
+P: /devices/platform/mmc-bcm2835.0/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0/mmcblk0p1
+N: mmcblk0p1
+S: disk/by-id/memstick-SS04G_0x00b25421-part1
+S: disk/by-label/boot
+S: disk/by-path/platform-mmc-bcm2835.0-part1
+S: disk/by-uuid/CB99-4C7E
+E: DEVLINKS=/dev/disk/by-id/memstick-SS04G_0x00b25421-part1 /dev/disk/by-label/boot /dev/disk/by-path/platform-mmc-bcm2835.0-part1 /dev/disk/by-uuid/CB99-4C7E
+E: DEVNAME=/dev/mmcblk0p1
+E: DEVPATH=/devices/platform/mmc-bcm2835.0/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0/mmcblk0p1
+E: DEVTYPE=partition
+E: ID_BUS=memstick
+E: ID_DRIVE_FLASH_SD=1
+E: ID_DRIVE_MEDIA_FLASH_SD=1
+E: ID_FS_LABEL=boot
+E: ID_FS_LABEL_ENC=boot
+E: ID_FS_SEC_TYPE=msdos
+E: ID_FS_TYPE=vfat
+E: ID_FS_USAGE=filesystem
+E: ID_FS_UUID=CB99-4C7E
+E: ID_FS_UUID_ENC=CB99-4C7E
+E: ID_FS_VERSION=FAT16
+E: ID_PART_ENTRY_DISK=179:0
+E: ID_PART_ENTRY_NUMBER=1
+E: ID_PART_ENTRY_OFFSET=8192
+E: ID_PART_ENTRY_SCHEME=dos
+E: ID_PART_ENTRY_SIZE=114688
+E: ID_PART_ENTRY_TYPE=0xc
+E: ID_PART_TABLE_TYPE=dos
+E: ID_PATH=platform-mmc-bcm2835.0
+E: ID_PATH_TAG=platform-mmc-bcm2835_0
+E: ID_SERIAL=SS04G_0x00b25421
+E: MAJOR=179
+E: MINOR=1
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: UDISKS_PARTITION=1
+E: UDISKS_PARTITION_ALIGNMENT_OFFSET=0
+E: UDISKS_PARTITION_NUMBER=1
+E: UDISKS_PARTITION_OFFSET=4194304
+E: UDISKS_PARTITION_SCHEME=mbr
+E: UDISKS_PARTITION_SIZE=58720256
+E: UDISKS_PARTITION_SLAVE=/sys/devices/platform/mmc-bcm2835.0/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0
+E: UDISKS_PARTITION_TYPE=0x0c
+E: UDISKS_PRESENTATION_NOPOLICY=0
+E: USEC_INITIALIZED=4473143
+
+P: /devices/platform/mmc-bcm2835.0/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0/mmcblk0p2
+N: mmcblk0p2
+S: disk/by-id/memstick-SS04G_0x00b25421-part2
+S: disk/by-path/platform-mmc-bcm2835.0-part2
+S: disk/by-uuid/1263ae8d-aaf3-41b6-9ac0-03e7fecb5d6a
+S: root
+E: DEVLINKS=/dev/disk/by-id/memstick-SS04G_0x00b25421-part2 /dev/disk/by-path/platform-mmc-bcm2835.0-part2 /dev/disk/by-uuid/1263ae8d-aaf3-41b6-9ac0-03e7fecb5d6a /dev/root
+E: DEVNAME=/dev/mmcblk0p2
+E: DEVPATH=/devices/platform/mmc-bcm2835.0/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0/mmcblk0p2
+E: DEVTYPE=partition
+E: ID_BUS=memstick
+E: ID_DRIVE_FLASH_SD=1
+E: ID_DRIVE_MEDIA_FLASH_SD=1
+E: ID_FS_TYPE=ext4
+E: ID_FS_USAGE=filesystem
+E: ID_FS_UUID=1263ae8d-aaf3-41b6-9ac0-03e7fecb5d6a
+E: ID_FS_UUID_ENC=1263ae8d-aaf3-41b6-9ac0-03e7fecb5d6a
+E: ID_FS_VERSION=1.0
+E: ID_PART_ENTRY_DISK=179:0
+E: ID_PART_ENTRY_NUMBER=2
+E: ID_PART_ENTRY_OFFSET=122880
+E: ID_PART_ENTRY_SCHEME=dos
+E: ID_PART_ENTRY_SIZE=7621632
+E: ID_PART_ENTRY_TYPE=0x83
+E: ID_PART_TABLE_TYPE=dos
+E: ID_PATH=platform-mmc-bcm2835.0
+E: ID_PATH_TAG=platform-mmc-bcm2835_0
+E: ID_SERIAL=SS04G_0x00b25421
+E: MAJOR=179
+E: MINOR=2
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: UDISKS_PARTITION=1
+E: UDISKS_PARTITION_ALIGNMENT_OFFSET=0
+E: UDISKS_PARTITION_NUMBER=2
+E: UDISKS_PARTITION_OFFSET=62914560
+E: UDISKS_PARTITION_SCHEME=mbr
+E: UDISKS_PARTITION_SIZE=3902275584
+E: UDISKS_PARTITION_SLAVE=/sys/devices/platform/mmc-bcm2835.0/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0
+E: UDISKS_PARTITION_TYPE=0x83
+E: UDISKS_PRESENTATION_NOPOLICY=0
+E: USEC_INITIALIZED=4508844
+
+P: /devices/platform/serial8250.0
+E: DEVPATH=/devices/platform/serial8250.0
+E: MODALIAS=platform:serial8250
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/soc
+E: DEVPATH=/devices/soc
+E: MODALIAS=of:NsocT<NULL>Csimple-bus
+E: OF_COMPATIBLE_0=simple-bus
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/soc
+E: OF_NAME=soc
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/soc/3f00b200.interrupt-controller
+E: DEVPATH=/devices/soc/3f00b200.interrupt-controller
+E: MODALIAS=of:Ninterrupt-controllerT<NULL>Cbrcm,bcm2708-armctrl-ic
+E: OF_COMPATIBLE_0=brcm,bcm2708-armctrl-ic
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/soc/interrupt-controller
+E: OF_NAME=interrupt-controller
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/soc/3f200000.gpio
+E: DEVPATH=/devices/soc/3f200000.gpio
+E: DRIVER=pinctrl-bcm2835
+E: MODALIAS=of:NgpioT<NULL>Cbrcm,bcm2835-gpio
+E: OF_COMPATIBLE_0=brcm,bcm2835-gpio
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/soc/gpio
+E: OF_NAME=gpio
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/soc/3f200000.gpio/gpio/gpiochip0
+E: DEVPATH=/devices/soc/3f200000.gpio/gpio/gpiochip0
+E: SUBSYSTEM=gpio
+E: UDEV_LOG=3
+
+P: /devices/soc/3f204000.spi
+E: DEVPATH=/devices/soc/3f204000.spi
+E: DRIVER=bcm2708_spi
+E: MODALIAS=of:NspiT<NULL>Cbrcm,bcm2708-spi
+E: OF_ALIAS_0=spi0
+E: OF_COMPATIBLE_0=brcm,bcm2708-spi
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/soc/spi@7e204000
+E: OF_NAME=spi
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/soc/3f204000.spi/spi_master/spi0
+E: DEVPATH=/devices/soc/3f204000.spi/spi_master/spi0
+E: OF_ALIAS_0=spi0
+E: OF_COMPATIBLE_0=brcm,bcm2708-spi
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/soc/spi@7e204000
+E: OF_NAME=spi
+E: SUBSYSTEM=spi_master
+E: UDEV_LOG=3
+
+P: /devices/soc/3f204000.spi/spi_master/spi0/spi0.0
+E: DEVPATH=/devices/soc/3f204000.spi/spi_master/spi0/spi0.0
+E: DRIVER=spidev
+E: MODALIAS=spi:spidev
+E: OF_COMPATIBLE_0=spidev
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/soc/spi@7e204000/spidev@0
+E: OF_NAME=spidev
+E: SUBSYSTEM=spi
+E: UDEV_LOG=3
+
+P: /devices/soc/3f204000.spi/spi_master/spi0/spi0.0/spidev/spidev0.0
+N: spidev0.0
+E: DEVNAME=/dev/spidev0.0
+E: DEVPATH=/devices/soc/3f204000.spi/spi_master/spi0/spi0.0/spidev/spidev0.0
+E: MAJOR=153
+E: MINOR=0
+E: SUBSYSTEM=spidev
+E: UDEV_LOG=3
+
+P: /devices/soc/3f204000.spi/spi_master/spi0/spi0.1
+E: DEVPATH=/devices/soc/3f204000.spi/spi_master/spi0/spi0.1
+E: DRIVER=spidev
+E: MODALIAS=spi:spidev
+E: OF_COMPATIBLE_0=spidev
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/soc/spi@7e204000/spidev@1
+E: OF_NAME=spidev
+E: SUBSYSTEM=spi
+E: UDEV_LOG=3
+
+P: /devices/soc/3f204000.spi/spi_master/spi0/spi0.1/spidev/spidev0.1
+N: spidev0.1
+E: DEVNAME=/dev/spidev0.1
+E: DEVPATH=/devices/soc/3f204000.spi/spi_master/spi0/spi0.1/spidev/spidev0.1
+E: MAJOR=153
+E: MINOR=1
+E: SUBSYSTEM=spidev
+E: UDEV_LOG=3
+
+P: /devices/soc/3f804000.i2c
+E: DEVPATH=/devices/soc/3f804000.i2c
+E: DRIVER=bcm2708_i2c
+E: MODALIAS=of:Ni2cT<NULL>Cbrcm,bcm2708-i2c
+E: OF_ALIAS_0=i2c1
+E: OF_COMPATIBLE_0=brcm,bcm2708-i2c
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/soc/i2c@7e804000
+E: OF_NAME=i2c
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/soc/3f804000.i2c/i2c-1
+E: DEVPATH=/devices/soc/3f804000.i2c/i2c-1
+E: OF_ALIAS_0=i2c1
+E: OF_COMPATIBLE_0=brcm,bcm2708-i2c
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/soc/i2c@7e804000
+E: OF_NAME=i2c
+E: SUBSYSTEM=i2c
+E: UDEV_LOG=3
+
+P: /devices/soc/soc:leds
+E: DEVPATH=/devices/soc/soc:leds
+E: DRIVER=leds-gpio
+E: MODALIAS=of:NledsT<NULL>Cgpio-leds
+E: OF_COMPATIBLE_0=gpio-leds
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/soc/leds
+E: OF_NAME=leds
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/soc/soc:leds/leds/ACT
+E: DEVPATH=/devices/soc/soc:leds/leds/ACT
+E: SUBSYSTEM=leds
+E: UDEV_LOG=3
+
+P: /devices/software
+E: DEVPATH=/devices/software
+E: SUBSYSTEM=event_source
+E: UDEV_LOG=3
+
+P: /devices/system/clockevents/broadcast
+E: DEVPATH=/devices/system/clockevents/broadcast
+E: SUBSYSTEM=clockevents
+E: UDEV_LOG=3
+
+P: /devices/system/clockevents/clockevent0
+E: DEVPATH=/devices/system/clockevents/clockevent0
+E: SUBSYSTEM=clockevents
+E: UDEV_LOG=3
+
+P: /devices/system/clockevents/clockevent1
+E: DEVPATH=/devices/system/clockevents/clockevent1
+E: SUBSYSTEM=clockevents
+E: UDEV_LOG=3
+
+P: /devices/system/clockevents/clockevent2
+E: DEVPATH=/devices/system/clockevents/clockevent2
+E: SUBSYSTEM=clockevents
+E: UDEV_LOG=3
+
+P: /devices/system/clockevents/clockevent3
+E: DEVPATH=/devices/system/clockevents/clockevent3
+E: SUBSYSTEM=clockevents
+E: UDEV_LOG=3
+
+P: /devices/system/clocksource/clocksource0
+E: DEVPATH=/devices/system/clocksource/clocksource0
+E: SUBSYSTEM=clocksource
+E: UDEV_LOG=3
+
+P: /devices/system/cpu/cpu0
+E: DEVPATH=/devices/system/cpu/cpu0
+E: OF_COMPATIBLE_0=arm,cortex-a7
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/cpus/cpu@0
+E: OF_NAME=cpu
+E: OF_TYPE=cpu
+E: SUBSYSTEM=cpu
+E: UDEV_LOG=3
+
+P: /devices/system/cpu/cpu1
+E: DEVPATH=/devices/system/cpu/cpu1
+E: OF_COMPATIBLE_0=arm,cortex-a7
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/cpus/cpu@1
+E: OF_NAME=cpu
+E: OF_TYPE=cpu
+E: SUBSYSTEM=cpu
+E: UDEV_LOG=3
+
+P: /devices/system/cpu/cpu2
+E: DEVPATH=/devices/system/cpu/cpu2
+E: OF_COMPATIBLE_0=arm,cortex-a7
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/cpus/cpu@2
+E: OF_NAME=cpu
+E: OF_TYPE=cpu
+E: SUBSYSTEM=cpu
+E: UDEV_LOG=3
+
+P: /devices/system/cpu/cpu3
+E: DEVPATH=/devices/system/cpu/cpu3
+E: OF_COMPATIBLE_0=arm,cortex-a7
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/cpus/cpu@3
+E: OF_NAME=cpu
+E: OF_TYPE=cpu
+E: SUBSYSTEM=cpu
+E: UDEV_LOG=3
+
+P: /devices/timer
+E: DEVPATH=/devices/timer
+E: MODALIAS=of:NtimerT<NULL>Carm,armv7-timer
+E: OF_COMPATIBLE_0=arm,armv7-timer
+E: OF_COMPATIBLE_N=1
+E: OF_FULLNAME=/timer
+E: OF_NAME=timer
+E: SUBSYSTEM=platform
+E: UDEV_LOG=3
+
+P: /devices/tracepoint
+E: DEVPATH=/devices/tracepoint
+E: SUBSYSTEM=event_source
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/179:0
+E: DEVPATH=/devices/virtual/bdi/179:0
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:0
+E: DEVPATH=/devices/virtual/bdi/1:0
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:1
+E: DEVPATH=/devices/virtual/bdi/1:1
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:10
+E: DEVPATH=/devices/virtual/bdi/1:10
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:11
+E: DEVPATH=/devices/virtual/bdi/1:11
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:12
+E: DEVPATH=/devices/virtual/bdi/1:12
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:13
+E: DEVPATH=/devices/virtual/bdi/1:13
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:14
+E: DEVPATH=/devices/virtual/bdi/1:14
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:15
+E: DEVPATH=/devices/virtual/bdi/1:15
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:2
+E: DEVPATH=/devices/virtual/bdi/1:2
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:3
+E: DEVPATH=/devices/virtual/bdi/1:3
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:4
+E: DEVPATH=/devices/virtual/bdi/1:4
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:5
+E: DEVPATH=/devices/virtual/bdi/1:5
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:6
+E: DEVPATH=/devices/virtual/bdi/1:6
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:7
+E: DEVPATH=/devices/virtual/bdi/1:7
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:8
+E: DEVPATH=/devices/virtual/bdi/1:8
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/1:9
+E: DEVPATH=/devices/virtual/bdi/1:9
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/7:0
+E: DEVPATH=/devices/virtual/bdi/7:0
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/7:1
+E: DEVPATH=/devices/virtual/bdi/7:1
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/7:2
+E: DEVPATH=/devices/virtual/bdi/7:2
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/7:3
+E: DEVPATH=/devices/virtual/bdi/7:3
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/7:4
+E: DEVPATH=/devices/virtual/bdi/7:4
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/7:5
+E: DEVPATH=/devices/virtual/bdi/7:5
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/7:6
+E: DEVPATH=/devices/virtual/bdi/7:6
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/7:7
+E: DEVPATH=/devices/virtual/bdi/7:7
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/bdi/default
+E: DEVPATH=/devices/virtual/bdi/default
+E: SUBSYSTEM=bdi
+E: UDEV_LOG=3
+
+P: /devices/virtual/block/loop0
+N: loop0
+E: DEVNAME=/dev/loop0
+E: DEVPATH=/devices/virtual/block/loop0
+E: DEVTYPE=disk
+E: MAJOR=7
+E: MINOR=0
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: UDISKS_PRESENTATION_NOPOLICY=1
+E: USEC_INITIALIZED=4361357
+
+P: /devices/virtual/block/loop1
+N: loop1
+E: DEVNAME=/dev/loop1
+E: DEVPATH=/devices/virtual/block/loop1
+E: DEVTYPE=disk
+E: MAJOR=7
+E: MINOR=1
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: UDISKS_PRESENTATION_NOPOLICY=1
+E: USEC_INITIALIZED=4367394
+
+P: /devices/virtual/block/loop2
+N: loop2
+E: DEVNAME=/dev/loop2
+E: DEVPATH=/devices/virtual/block/loop2
+E: DEVTYPE=disk
+E: MAJOR=7
+E: MINOR=2
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: UDISKS_PRESENTATION_NOPOLICY=1
+E: USEC_INITIALIZED=4363047
+
+P: /devices/virtual/block/loop3
+N: loop3
+E: DEVNAME=/dev/loop3
+E: DEVPATH=/devices/virtual/block/loop3
+E: DEVTYPE=disk
+E: MAJOR=7
+E: MINOR=3
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: UDISKS_PRESENTATION_NOPOLICY=1
+E: USEC_INITIALIZED=4363114
+
+P: /devices/virtual/block/loop4
+N: loop4
+E: DEVNAME=/dev/loop4
+E: DEVPATH=/devices/virtual/block/loop4
+E: DEVTYPE=disk
+E: MAJOR=7
+E: MINOR=4
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: UDISKS_PRESENTATION_NOPOLICY=1
+E: USEC_INITIALIZED=4366461
+
+P: /devices/virtual/block/loop5
+N: loop5
+E: DEVNAME=/dev/loop5
+E: DEVPATH=/devices/virtual/block/loop5
+E: DEVTYPE=disk
+E: MAJOR=7
+E: MINOR=5
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: UDISKS_PRESENTATION_NOPOLICY=1
+E: USEC_INITIALIZED=4369528
+
+P: /devices/virtual/block/loop6
+N: loop6
+E: DEVNAME=/dev/loop6
+E: DEVPATH=/devices/virtual/block/loop6
+E: DEVTYPE=disk
+E: MAJOR=7
+E: MINOR=6
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: UDISKS_PRESENTATION_NOPOLICY=1
+E: USEC_INITIALIZED=4364725
+
+P: /devices/virtual/block/loop7
+N: loop7
+E: DEVNAME=/dev/loop7
+E: DEVPATH=/devices/virtual/block/loop7
+E: DEVTYPE=disk
+E: MAJOR=7
+E: MINOR=7
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: UDISKS_PRESENTATION_NOPOLICY=1
+E: USEC_INITIALIZED=4365535
+
+P: /devices/virtual/block/ram0
+N: ram0
+E: DEVNAME=/dev/ram0
+E: DEVPATH=/devices/virtual/block/ram0
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=0
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4298641
+
+P: /devices/virtual/block/ram1
+N: ram1
+E: DEVNAME=/dev/ram1
+E: DEVPATH=/devices/virtual/block/ram1
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=1
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4216876
+
+P: /devices/virtual/block/ram10
+N: ram10
+E: DEVNAME=/dev/ram10
+E: DEVPATH=/devices/virtual/block/ram10
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=10
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4214943
+
+P: /devices/virtual/block/ram11
+N: ram11
+E: DEVNAME=/dev/ram11
+E: DEVPATH=/devices/virtual/block/ram11
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=11
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4175597
+
+P: /devices/virtual/block/ram12
+N: ram12
+E: DEVNAME=/dev/ram12
+E: DEVPATH=/devices/virtual/block/ram12
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=12
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4135576
+
+P: /devices/virtual/block/ram13
+N: ram13
+E: DEVNAME=/dev/ram13
+E: DEVPATH=/devices/virtual/block/ram13
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=13
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4139129
+
+P: /devices/virtual/block/ram14
+N: ram14
+E: DEVNAME=/dev/ram14
+E: DEVPATH=/devices/virtual/block/ram14
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=14
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4258473
+
+P: /devices/virtual/block/ram15
+N: ram15
+E: DEVNAME=/dev/ram15
+E: DEVPATH=/devices/virtual/block/ram15
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=15
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4151418
+
+P: /devices/virtual/block/ram2
+N: ram2
+E: DEVNAME=/dev/ram2
+E: DEVPATH=/devices/virtual/block/ram2
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=2
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4152922
+
+P: /devices/virtual/block/ram3
+N: ram3
+E: DEVNAME=/dev/ram3
+E: DEVPATH=/devices/virtual/block/ram3
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=3
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4154543
+
+P: /devices/virtual/block/ram4
+N: ram4
+E: DEVNAME=/dev/ram4
+E: DEVPATH=/devices/virtual/block/ram4
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=4
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4156367
+
+P: /devices/virtual/block/ram5
+N: ram5
+E: DEVNAME=/dev/ram5
+E: DEVPATH=/devices/virtual/block/ram5
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=5
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4270131
+
+P: /devices/virtual/block/ram6
+N: ram6
+E: DEVNAME=/dev/ram6
+E: DEVPATH=/devices/virtual/block/ram6
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=6
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4181345
+
+P: /devices/virtual/block/ram7
+N: ram7
+E: DEVNAME=/dev/ram7
+E: DEVPATH=/devices/virtual/block/ram7
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=7
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4182871
+
+P: /devices/virtual/block/ram8
+N: ram8
+E: DEVNAME=/dev/ram8
+E: DEVPATH=/devices/virtual/block/ram8
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=8
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4184504
+
+P: /devices/virtual/block/ram9
+N: ram9
+E: DEVNAME=/dev/ram9
+E: DEVPATH=/devices/virtual/block/ram9
+E: DEVTYPE=disk
+E: MAJOR=1
+E: MINOR=9
+E: SUBSYSTEM=block
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=4186468
+
+P: /devices/virtual/graphics/fb0
+N: fb0
+E: DEVNAME=/dev/fb0
+E: DEVPATH=/devices/virtual/graphics/fb0
+E: MAJOR=29
+E: MINOR=0
+E: SUBSYSTEM=graphics
+E: UDEV_LOG=3
+
+P: /devices/virtual/graphics/fbcon
+E: DEVPATH=/devices/virtual/graphics/fbcon
+E: SUBSYSTEM=graphics
+E: UDEV_LOG=3
+
+P: /devices/virtual/input/mice
+N: input/mice
+E: DEVNAME=/dev/input/mice
+E: DEVPATH=/devices/virtual/input/mice
+E: MAJOR=13
+E: MINOR=63
+E: SUBSYSTEM=input
+E: UDEV_LOG=3
+
+P: /devices/virtual/mem/full
+N: full
+E: DEVMODE=0666
+E: DEVNAME=/dev/full
+E: DEVPATH=/devices/virtual/mem/full
+E: MAJOR=1
+E: MINOR=7
+E: SUBSYSTEM=mem
+E: UDEV_LOG=3
+
+P: /devices/virtual/mem/kmsg
+N: kmsg
+E: DEVMODE=0644
+E: DEVNAME=/dev/kmsg
+E: DEVPATH=/devices/virtual/mem/kmsg
+E: MAJOR=1
+E: MINOR=11
+E: SUBSYSTEM=mem
+E: UDEV_LOG=3
+
+P: /devices/virtual/mem/mem
+N: mem
+E: DEVNAME=/dev/mem
+E: DEVPATH=/devices/virtual/mem/mem
+E: MAJOR=1
+E: MINOR=1
+E: SUBSYSTEM=mem
+E: UDEV_LOG=3
+
+P: /devices/virtual/mem/null
+N: null
+E: DEVMODE=0666
+E: DEVNAME=/dev/null
+E: DEVPATH=/devices/virtual/mem/null
+E: MAJOR=1
+E: MINOR=3
+E: SUBSYSTEM=mem
+E: UDEV_LOG=3
+
+P: /devices/virtual/mem/random
+N: random
+E: DEVMODE=0666
+E: DEVNAME=/dev/random
+E: DEVPATH=/devices/virtual/mem/random
+E: MAJOR=1
+E: MINOR=8
+E: SUBSYSTEM=mem
+E: UDEV_LOG=3
+
+P: /devices/virtual/mem/urandom
+N: urandom
+E: DEVMODE=0666
+E: DEVNAME=/dev/urandom
+E: DEVPATH=/devices/virtual/mem/urandom
+E: MAJOR=1
+E: MINOR=9
+E: SUBSYSTEM=mem
+E: UDEV_LOG=3
+
+P: /devices/virtual/mem/zero
+N: zero
+E: DEVMODE=0666
+E: DEVNAME=/dev/zero
+E: DEVPATH=/devices/virtual/mem/zero
+E: MAJOR=1
+E: MINOR=5
+E: SUBSYSTEM=mem
+E: UDEV_LOG=3
+
+P: /devices/virtual/misc/autofs
+N: autofs
+E: DEVNAME=/dev/autofs
+E: DEVPATH=/devices/virtual/misc/autofs
+E: MAJOR=10
+E: MINOR=235
+E: SUBSYSTEM=misc
+E: UDEV_LOG=3
+
+P: /devices/virtual/misc/cachefiles
+N: cachefiles
+E: DEVNAME=/dev/cachefiles
+E: DEVPATH=/devices/virtual/misc/cachefiles
+E: MAJOR=10
+E: MINOR=63
+E: SUBSYSTEM=misc
+E: UDEV_LOG=3
+
+P: /devices/virtual/misc/cpu_dma_latency
+N: cpu_dma_latency
+E: DEVNAME=/dev/cpu_dma_latency
+E: DEVPATH=/devices/virtual/misc/cpu_dma_latency
+E: MAJOR=10
+E: MINOR=62
+E: SUBSYSTEM=misc
+E: UDEV_LOG=3
+
+P: /devices/virtual/misc/loop-control
+N: loop-control
+E: DEVNAME=/dev/loop-control
+E: DEVPATH=/devices/virtual/misc/loop-control
+E: MAJOR=10
+E: MINOR=237
+E: SUBSYSTEM=misc
+E: UDEV_LOG=3
+
+P: /devices/virtual/misc/memory_bandwidth
+N: memory_bandwidth
+E: DEVNAME=/dev/memory_bandwidth
+E: DEVPATH=/devices/virtual/misc/memory_bandwidth
+E: MAJOR=10
+E: MINOR=59
+E: SUBSYSTEM=misc
+E: UDEV_LOG=3
+
+P: /devices/virtual/misc/network_latency
+N: network_latency
+E: DEVNAME=/dev/network_latency
+E: DEVPATH=/devices/virtual/misc/network_latency
+E: MAJOR=10
+E: MINOR=61
+E: SUBSYSTEM=misc
+E: UDEV_LOG=3
+
+P: /devices/virtual/misc/network_throughput
+N: network_throughput
+E: DEVNAME=/dev/network_throughput
+E: DEVPATH=/devices/virtual/misc/network_throughput
+E: MAJOR=10
+E: MINOR=60
+E: SUBSYSTEM=misc
+E: UDEV_LOG=3
+
+P: /devices/virtual/net/lo
+E: DEVPATH=/devices/virtual/net/lo
+E: IFINDEX=1
+E: INTERFACE=lo
+E: SUBSYSTEM=net
+E: UDEV_LOG=3
+
+P: /devices/virtual/raw/rawctl
+N: raw/rawctl
+E: DEVNAME=/dev/raw/rawctl
+E: DEVPATH=/devices/virtual/raw/rawctl
+E: MAJOR=162
+E: MINOR=0
+E: SUBSYSTEM=raw
+E: UDEV_LOG=3
+
+P: /devices/virtual/sound/card0
+E: DEVPATH=/devices/virtual/sound/card0
+E: SOUND_INITIALIZED=1
+E: SUBSYSTEM=sound
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=6676313
+
+P: /devices/virtual/sound/card0/pcmC0D0p
+N: snd/pcmC0D0p
+E: DEVNAME=/dev/snd/pcmC0D0p
+E: DEVPATH=/devices/virtual/sound/card0/pcmC0D0p
+E: MAJOR=116
+E: MINOR=16
+E: SUBSYSTEM=sound
+E: TAGS=:udev-acl:
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=6586320
+
+P: /devices/virtual/sound/card0/pcmC0D1p
+N: snd/pcmC0D1p
+E: DEVNAME=/dev/snd/pcmC0D1p
+E: DEVPATH=/devices/virtual/sound/card0/pcmC0D1p
+E: MAJOR=116
+E: MINOR=17
+E: SUBSYSTEM=sound
+E: TAGS=:udev-acl:
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=6586758
+
+P: /devices/virtual/sound/card0/controlC0
+N: snd/controlC0
+E: DEVNAME=/dev/snd/controlC0
+E: DEVPATH=/devices/virtual/sound/card0/controlC0
+E: MAJOR=116
+E: MINOR=0
+E: SUBSYSTEM=sound
+E: TAGS=:udev-acl:
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=6598083
+
+P: /devices/virtual/sound/seq
+N: snd/seq
+E: DEVNAME=/dev/snd/seq
+E: DEVPATH=/devices/virtual/sound/seq
+E: MAJOR=116
+E: MINOR=1
+E: SUBSYSTEM=sound
+E: TAGS=:udev-acl:
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=6563013
+
+P: /devices/virtual/sound/timer
+N: snd/timer
+E: DEVNAME=/dev/snd/timer
+E: DEVPATH=/devices/virtual/sound/timer
+E: MAJOR=116
+E: MINOR=33
+E: SUBSYSTEM=sound
+E: TAGS=:udev-acl:
+E: UDEV_LOG=3
+E: USEC_INITIALIZED=6550896
+
+P: /devices/virtual/thermal/thermal_zone0
+E: DEVPATH=/devices/virtual/thermal/thermal_zone0
+E: SUBSYSTEM=thermal
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/console
+N: console
+E: DEVNAME=/dev/console
+E: DEVPATH=/devices/virtual/tty/console
+E: MAJOR=5
+E: MINOR=1
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/ptmx
+N: ptmx
+E: DEVMODE=0666
+E: DEVNAME=/dev/ptmx
+E: DEVPATH=/devices/virtual/tty/ptmx
+E: MAJOR=5
+E: MINOR=2
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty
+N: tty
+E: DEVMODE=0666
+E: DEVNAME=/dev/tty
+E: DEVPATH=/devices/virtual/tty/tty
+E: MAJOR=5
+E: MINOR=0
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty0
+N: tty0
+E: DEVNAME=/dev/tty0
+E: DEVPATH=/devices/virtual/tty/tty0
+E: MAJOR=4
+E: MINOR=0
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty1
+N: tty1
+E: DEVNAME=/dev/tty1
+E: DEVPATH=/devices/virtual/tty/tty1
+E: MAJOR=4
+E: MINOR=1
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty10
+N: tty10
+E: DEVNAME=/dev/tty10
+E: DEVPATH=/devices/virtual/tty/tty10
+E: MAJOR=4
+E: MINOR=10
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty11
+N: tty11
+E: DEVNAME=/dev/tty11
+E: DEVPATH=/devices/virtual/tty/tty11
+E: MAJOR=4
+E: MINOR=11
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty12
+N: tty12
+E: DEVNAME=/dev/tty12
+E: DEVPATH=/devices/virtual/tty/tty12
+E: MAJOR=4
+E: MINOR=12
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty13
+N: tty13
+E: DEVNAME=/dev/tty13
+E: DEVPATH=/devices/virtual/tty/tty13
+E: MAJOR=4
+E: MINOR=13
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty14
+N: tty14
+E: DEVNAME=/dev/tty14
+E: DEVPATH=/devices/virtual/tty/tty14
+E: MAJOR=4
+E: MINOR=14
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty15
+N: tty15
+E: DEVNAME=/dev/tty15
+E: DEVPATH=/devices/virtual/tty/tty15
+E: MAJOR=4
+E: MINOR=15
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty16
+N: tty16
+E: DEVNAME=/dev/tty16
+E: DEVPATH=/devices/virtual/tty/tty16
+E: MAJOR=4
+E: MINOR=16
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty17
+N: tty17
+E: DEVNAME=/dev/tty17
+E: DEVPATH=/devices/virtual/tty/tty17
+E: MAJOR=4
+E: MINOR=17
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty18
+N: tty18
+E: DEVNAME=/dev/tty18
+E: DEVPATH=/devices/virtual/tty/tty18
+E: MAJOR=4
+E: MINOR=18
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty19
+N: tty19
+E: DEVNAME=/dev/tty19
+E: DEVPATH=/devices/virtual/tty/tty19
+E: MAJOR=4
+E: MINOR=19
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty2
+N: tty2
+E: DEVNAME=/dev/tty2
+E: DEVPATH=/devices/virtual/tty/tty2
+E: MAJOR=4
+E: MINOR=2
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty20
+N: tty20
+E: DEVNAME=/dev/tty20
+E: DEVPATH=/devices/virtual/tty/tty20
+E: MAJOR=4
+E: MINOR=20
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty21
+N: tty21
+E: DEVNAME=/dev/tty21
+E: DEVPATH=/devices/virtual/tty/tty21
+E: MAJOR=4
+E: MINOR=21
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty22
+N: tty22
+E: DEVNAME=/dev/tty22
+E: DEVPATH=/devices/virtual/tty/tty22
+E: MAJOR=4
+E: MINOR=22
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty23
+N: tty23
+E: DEVNAME=/dev/tty23
+E: DEVPATH=/devices/virtual/tty/tty23
+E: MAJOR=4
+E: MINOR=23
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty24
+N: tty24
+E: DEVNAME=/dev/tty24
+E: DEVPATH=/devices/virtual/tty/tty24
+E: MAJOR=4
+E: MINOR=24
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty25
+N: tty25
+E: DEVNAME=/dev/tty25
+E: DEVPATH=/devices/virtual/tty/tty25
+E: MAJOR=4
+E: MINOR=25
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty26
+N: tty26
+E: DEVNAME=/dev/tty26
+E: DEVPATH=/devices/virtual/tty/tty26
+E: MAJOR=4
+E: MINOR=26
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty27
+N: tty27
+E: DEVNAME=/dev/tty27
+E: DEVPATH=/devices/virtual/tty/tty27
+E: MAJOR=4
+E: MINOR=27
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty28
+N: tty28
+E: DEVNAME=/dev/tty28
+E: DEVPATH=/devices/virtual/tty/tty28
+E: MAJOR=4
+E: MINOR=28
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty29
+N: tty29
+E: DEVNAME=/dev/tty29
+E: DEVPATH=/devices/virtual/tty/tty29
+E: MAJOR=4
+E: MINOR=29
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty3
+N: tty3
+E: DEVNAME=/dev/tty3
+E: DEVPATH=/devices/virtual/tty/tty3
+E: MAJOR=4
+E: MINOR=3
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty30
+N: tty30
+E: DEVNAME=/dev/tty30
+E: DEVPATH=/devices/virtual/tty/tty30
+E: MAJOR=4
+E: MINOR=30
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty31
+N: tty31
+E: DEVNAME=/dev/tty31
+E: DEVPATH=/devices/virtual/tty/tty31
+E: MAJOR=4
+E: MINOR=31
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty32
+N: tty32
+E: DEVNAME=/dev/tty32
+E: DEVPATH=/devices/virtual/tty/tty32
+E: MAJOR=4
+E: MINOR=32
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty33
+N: tty33
+E: DEVNAME=/dev/tty33
+E: DEVPATH=/devices/virtual/tty/tty33
+E: MAJOR=4
+E: MINOR=33
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty34
+N: tty34
+E: DEVNAME=/dev/tty34
+E: DEVPATH=/devices/virtual/tty/tty34
+E: MAJOR=4
+E: MINOR=34
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty35
+N: tty35
+E: DEVNAME=/dev/tty35
+E: DEVPATH=/devices/virtual/tty/tty35
+E: MAJOR=4
+E: MINOR=35
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty36
+N: tty36
+E: DEVNAME=/dev/tty36
+E: DEVPATH=/devices/virtual/tty/tty36
+E: MAJOR=4
+E: MINOR=36
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty37
+N: tty37
+E: DEVNAME=/dev/tty37
+E: DEVPATH=/devices/virtual/tty/tty37
+E: MAJOR=4
+E: MINOR=37
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty38
+N: tty38
+E: DEVNAME=/dev/tty38
+E: DEVPATH=/devices/virtual/tty/tty38
+E: MAJOR=4
+E: MINOR=38
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty39
+N: tty39
+E: DEVNAME=/dev/tty39
+E: DEVPATH=/devices/virtual/tty/tty39
+E: MAJOR=4
+E: MINOR=39
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty4
+N: tty4
+E: DEVNAME=/dev/tty4
+E: DEVPATH=/devices/virtual/tty/tty4
+E: MAJOR=4
+E: MINOR=4
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty40
+N: tty40
+E: DEVNAME=/dev/tty40
+E: DEVPATH=/devices/virtual/tty/tty40
+E: MAJOR=4
+E: MINOR=40
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty41
+N: tty41
+E: DEVNAME=/dev/tty41
+E: DEVPATH=/devices/virtual/tty/tty41
+E: MAJOR=4
+E: MINOR=41
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty42
+N: tty42
+E: DEVNAME=/dev/tty42
+E: DEVPATH=/devices/virtual/tty/tty42
+E: MAJOR=4
+E: MINOR=42
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty43
+N: tty43
+E: DEVNAME=/dev/tty43
+E: DEVPATH=/devices/virtual/tty/tty43
+E: MAJOR=4
+E: MINOR=43
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty44
+N: tty44
+E: DEVNAME=/dev/tty44
+E: DEVPATH=/devices/virtual/tty/tty44
+E: MAJOR=4
+E: MINOR=44
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty45
+N: tty45
+E: DEVNAME=/dev/tty45
+E: DEVPATH=/devices/virtual/tty/tty45
+E: MAJOR=4
+E: MINOR=45
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty46
+N: tty46
+E: DEVNAME=/dev/tty46
+E: DEVPATH=/devices/virtual/tty/tty46
+E: MAJOR=4
+E: MINOR=46
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty47
+N: tty47
+E: DEVNAME=/dev/tty47
+E: DEVPATH=/devices/virtual/tty/tty47
+E: MAJOR=4
+E: MINOR=47
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty48
+N: tty48
+E: DEVNAME=/dev/tty48
+E: DEVPATH=/devices/virtual/tty/tty48
+E: MAJOR=4
+E: MINOR=48
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty49
+N: tty49
+E: DEVNAME=/dev/tty49
+E: DEVPATH=/devices/virtual/tty/tty49
+E: MAJOR=4
+E: MINOR=49
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty5
+N: tty5
+E: DEVNAME=/dev/tty5
+E: DEVPATH=/devices/virtual/tty/tty5
+E: MAJOR=4
+E: MINOR=5
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty50
+N: tty50
+E: DEVNAME=/dev/tty50
+E: DEVPATH=/devices/virtual/tty/tty50
+E: MAJOR=4
+E: MINOR=50
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty51
+N: tty51
+E: DEVNAME=/dev/tty51
+E: DEVPATH=/devices/virtual/tty/tty51
+E: MAJOR=4
+E: MINOR=51
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty52
+N: tty52
+E: DEVNAME=/dev/tty52
+E: DEVPATH=/devices/virtual/tty/tty52
+E: MAJOR=4
+E: MINOR=52
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty53
+N: tty53
+E: DEVNAME=/dev/tty53
+E: DEVPATH=/devices/virtual/tty/tty53
+E: MAJOR=4
+E: MINOR=53
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty54
+N: tty54
+E: DEVNAME=/dev/tty54
+E: DEVPATH=/devices/virtual/tty/tty54
+E: MAJOR=4
+E: MINOR=54
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty55
+N: tty55
+E: DEVNAME=/dev/tty55
+E: DEVPATH=/devices/virtual/tty/tty55
+E: MAJOR=4
+E: MINOR=55
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty56
+N: tty56
+E: DEVNAME=/dev/tty56
+E: DEVPATH=/devices/virtual/tty/tty56
+E: MAJOR=4
+E: MINOR=56
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty57
+N: tty57
+E: DEVNAME=/dev/tty57
+E: DEVPATH=/devices/virtual/tty/tty57
+E: MAJOR=4
+E: MINOR=57
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty58
+N: tty58
+E: DEVNAME=/dev/tty58
+E: DEVPATH=/devices/virtual/tty/tty58
+E: MAJOR=4
+E: MINOR=58
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty59
+N: tty59
+E: DEVNAME=/dev/tty59
+E: DEVPATH=/devices/virtual/tty/tty59
+E: MAJOR=4
+E: MINOR=59
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty6
+N: tty6
+E: DEVNAME=/dev/tty6
+E: DEVPATH=/devices/virtual/tty/tty6
+E: MAJOR=4
+E: MINOR=6
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty60
+N: tty60
+E: DEVNAME=/dev/tty60
+E: DEVPATH=/devices/virtual/tty/tty60
+E: MAJOR=4
+E: MINOR=60
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty61
+N: tty61
+E: DEVNAME=/dev/tty61
+E: DEVPATH=/devices/virtual/tty/tty61
+E: MAJOR=4
+E: MINOR=61
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty62
+N: tty62
+E: DEVNAME=/dev/tty62
+E: DEVPATH=/devices/virtual/tty/tty62
+E: MAJOR=4
+E: MINOR=62
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty63
+N: tty63
+E: DEVNAME=/dev/tty63
+E: DEVPATH=/devices/virtual/tty/tty63
+E: MAJOR=4
+E: MINOR=63
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty7
+N: tty7
+E: DEVNAME=/dev/tty7
+E: DEVPATH=/devices/virtual/tty/tty7
+E: MAJOR=4
+E: MINOR=7
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty8
+N: tty8
+E: DEVNAME=/dev/tty8
+E: DEVPATH=/devices/virtual/tty/tty8
+E: MAJOR=4
+E: MINOR=8
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/tty9
+N: tty9
+E: DEVNAME=/dev/tty9
+E: DEVPATH=/devices/virtual/tty/tty9
+E: MAJOR=4
+E: MINOR=9
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/tty/ttyprintk
+N: ttyprintk
+E: DEVNAME=/dev/ttyprintk
+E: DEVPATH=/devices/virtual/tty/ttyprintk
+E: MAJOR=5
+E: MINOR=3
+E: SUBSYSTEM=tty
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc-cma/vc-cma
+N: vc-cma
+E: DEVNAME=/dev/vc-cma
+E: DEVPATH=/devices/virtual/vc-cma/vc-cma
+E: MAJOR=251
+E: MINOR=0
+E: SUBSYSTEM=vc-cma
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc-mem/vc-mem
+N: vc-mem
+E: DEVNAME=/dev/vc-mem
+E: DEVPATH=/devices/virtual/vc-mem/vc-mem
+E: MAJOR=253
+E: MINOR=0
+E: SUBSYSTEM=vc-mem
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcs
+N: vcs
+E: DEVNAME=/dev/vcs
+E: DEVPATH=/devices/virtual/vc/vcs
+E: MAJOR=7
+E: MINOR=0
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcs1
+N: vcs1
+E: DEVNAME=/dev/vcs1
+E: DEVPATH=/devices/virtual/vc/vcs1
+E: MAJOR=7
+E: MINOR=1
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcs2
+N: vcs2
+E: DEVNAME=/dev/vcs2
+E: DEVPATH=/devices/virtual/vc/vcs2
+E: MAJOR=7
+E: MINOR=2
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcs3
+N: vcs3
+E: DEVNAME=/dev/vcs3
+E: DEVPATH=/devices/virtual/vc/vcs3
+E: MAJOR=7
+E: MINOR=3
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcs4
+N: vcs4
+E: DEVNAME=/dev/vcs4
+E: DEVPATH=/devices/virtual/vc/vcs4
+E: MAJOR=7
+E: MINOR=4
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcs5
+N: vcs5
+E: DEVNAME=/dev/vcs5
+E: DEVPATH=/devices/virtual/vc/vcs5
+E: MAJOR=7
+E: MINOR=5
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcs6
+N: vcs6
+E: DEVNAME=/dev/vcs6
+E: DEVPATH=/devices/virtual/vc/vcs6
+E: MAJOR=7
+E: MINOR=6
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcsa
+N: vcsa
+E: DEVNAME=/dev/vcsa
+E: DEVPATH=/devices/virtual/vc/vcsa
+E: MAJOR=7
+E: MINOR=128
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcsa1
+N: vcsa1
+E: DEVNAME=/dev/vcsa1
+E: DEVPATH=/devices/virtual/vc/vcsa1
+E: MAJOR=7
+E: MINOR=129
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcsa2
+N: vcsa2
+E: DEVNAME=/dev/vcsa2
+E: DEVPATH=/devices/virtual/vc/vcsa2
+E: MAJOR=7
+E: MINOR=130
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcsa3
+N: vcsa3
+E: DEVNAME=/dev/vcsa3
+E: DEVPATH=/devices/virtual/vc/vcsa3
+E: MAJOR=7
+E: MINOR=131
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcsa4
+N: vcsa4
+E: DEVNAME=/dev/vcsa4
+E: DEVPATH=/devices/virtual/vc/vcsa4
+E: MAJOR=7
+E: MINOR=132
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcsa5
+N: vcsa5
+E: DEVNAME=/dev/vcsa5
+E: DEVPATH=/devices/virtual/vc/vcsa5
+E: MAJOR=7
+E: MINOR=133
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vc/vcsa6
+N: vcsa6
+E: DEVNAME=/dev/vcsa6
+E: DEVPATH=/devices/virtual/vc/vcsa6
+E: MAJOR=7
+E: MINOR=134
+E: SUBSYSTEM=vc
+E: UDEV_LOG=3
+
+P: /devices/virtual/vchiq/vchiq
+N: vchiq
+E: DEVNAME=/dev/vchiq
+E: DEVPATH=/devices/virtual/vchiq/vchiq
+E: MAJOR=250
+E: MINOR=0
+E: SUBSYSTEM=vchiq
+E: UDEV_LOG=3
+
+P: /devices/virtual/vtconsole/vtcon0
+E: DEVPATH=/devices/virtual/vtconsole/vtcon0
+E: SUBSYSTEM=vtconsole
+E: UDEV_LOG=3
+
+P: /devices/virtual/vtconsole/vtcon1
+E: DEVPATH=/devices/virtual/vtconsole/vtcon1
+E: SUBSYSTEM=vtconsole
+E: UDEV_LOG=3
+
+P: /devices/virtual/workqueue/writeback
+E: DEVPATH=/devices/virtual/workqueue/writeback
+E: SUBSYSTEM=workqueue
+E: UDEV_LOG=3
+
